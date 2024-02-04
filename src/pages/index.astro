@@ -8,30 +8,38 @@ import Layout from '../layouts/Layout.astro'
 
 <Layout title="Ilfat Izzat Pratama - Software Design and Development Leader">
   <main class="w-[min(100%-2rem,1200px)] mx-auto h-screen grid place-items-center">
-    <div class="flex flex-col max-w-xs">
-      <h1 class="text-4xl font-bold mb-3 text-primary">dinojantan.com</h1>
-      <h3 class="text-lg font-light mb-1">Ilfat Izzat Pratama 🔥</h3>
-      <p class="text-xs mb-4">Project Manager | Software Engineer | Content Creator</p>
-      <select data-choose-theme class="select select-bordered w-full mb-8">
-        <option disabled selected>Choose your theme</option>
-        <option value="dark">Dark</option>
-        <option value="light">Light</option>
-        <option value="retro">Retro</option>
-        <option value="retha">Retha</option>
-      </select>
+    <div class="flex flex-col max-w-md">
+      <h1 class="text-4xl font-bold mb-3 text-primary">Ilfat Izzat Pratama 🔥</h1>
+      <p class="text-lg mb-4">Technical Project Manager | Software Engineer | Content Creator</p>
+      <p class="text-xs mb-4 text-justify">
+        With 6+ years in software design and leadership, I guide teams to excellence. As a content
+        creator, I share creative tech insights. My blend of technical skills and leadership fosters
+        innovation, aiming to contribute significantly to the software industry.
+      </p>
 
-      <div class="flex flex-col gap-3">
+      <!-- <label class="form-control w-full mb-8">
+        <div class="label">
+          <span class="label-text">Theme</span>
+        </div>
+        <select data-choose-theme class="select select-bordered w-full">
+          <option disabled selected>Choose your theme</option>
+          <option value="dark">Dark</option>
+          <option value="light">Light</option>
+          <option value="retro">Retro</option>
+          <option value="retha">Retha</option>
+        </select>
+      </label> -->
+
+      <div class="flex items-center justify-center gap-3 mt-8">
         <a
           href="https://www.tiktok.com/@dino.gank.code"
           target="_blank"
           class="flex items-center gap-1 hover:text-primary"
         >
           <Icon name="tabler:brand-tiktok" class="w-8 h-8" />
-          <p>@dino.gank.code</p>
         </a>
         <a href="mailto:izzat@dinojantan.com" class="flex items-center gap-1 hover:text-primary">
           <Icon name="tabler:mail" class="w-8 h-8" />
-          <p>izzat@dinojantan.com</p>
         </a>
         <a
           href="https://twitter.com/dinosaurjantan"
@@ -39,7 +47,6 @@ import Layout from '../layouts/Layout.astro'
           class="flex items-center gap-1 hover:text-primary"
         >
           <Icon name="tabler:brand-twitter" class="w-8 h-8" />
-          <p>@dinosaurjantan</p>
         </a>
         <a
           href="https://www.instagram.com/dino.gank.code"
@@ -47,7 +54,6 @@ import Layout from '../layouts/Layout.astro'
           class="flex items-center gap-1 hover:text-primary"
         >
           <Icon name="tabler:brand-instagram" class="w-8 h-8" />
-          <p>@dino.gank.code</p>
         </a>
         <a
           href="https://discord.gg/cJmY2XsqB7"
@@ -55,7 +61,14 @@ import Layout from '../layouts/Layout.astro'
           class="flex items-center gap-1 hover:text-primary"
         >
           <Icon name="tabler:brand-discord" class="w-8 h-8" />
-          <p>Dino</p>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/pratamaizzat/"
+          target="_blank"
+          class="flex items-center gap-1 hover:text-primary"
+        >
+          <Icon name="tabler:brand-linkedin" class="w-8 h-8" />
         </a>
       </div>
     </div>
