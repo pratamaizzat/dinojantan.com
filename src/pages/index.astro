@@ -5,6 +5,7 @@ import { Icon } from 'astro-icon/components'
 // ** Import Layout
 import Layout from '@/layouts/Layout.astro'
 import { socials } from '@/configs/social'
+import { buttonVariants } from '@/components/ui/button'
 ---
 
 <Layout title="Ilfat Izzat Pratama - Software Design and Development Leader">
@@ -17,6 +18,15 @@ import { socials } from '@/configs/social'
         creator, I share creative tech insights. My blend of technical skills and leadership fosters
         innovation, aiming to contribute significantly to the software industry.
       </p>
+
+      <a
+        class={buttonVariants({ variant: 'secondary' })}
+        href="https://blog.dinojantan.com"
+        target="_blank"
+        rel="nofollow noopener"
+      >
+        Visit By Blog
+      </a>
 
       <div class="flex items-center justify-center gap-3 mt-8">
         {
