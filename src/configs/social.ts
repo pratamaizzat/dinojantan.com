@@ -6,7 +6,7 @@ export const socials = [
   },
   {
     name: 'Twitter',
-    href: 'https://twitter.com/dinosaurjantan',
+    href: 'https://twitter.com/codefess1',
     icon: 'carbon:logo-twitter',
   },
   {
